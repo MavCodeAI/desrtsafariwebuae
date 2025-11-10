@@ -31,13 +31,13 @@ export default function PackageCard({
 }: PackageCardProps) {
 
   return (
-    <Card className="group overflow-hidden border-[#d4af37]/30 bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#1a1a2e] hover:border-[#d4af37] transition-all duration-500 relative premium-card-hover shadow-2xl hover:shadow-[#d4af37]/20">
+    <Card className="group overflow-hidden border-[#d4af37]/30 bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#1a1a2e] hover:border-[#d4af37] transition-all duration-500 relative premium-card-hover shadow-2xl hover:shadow-[#d4af37]/20 flex flex-col h-full min-h-[500px]">
       {badge && (
         <div className="absolute top-4 left-4 z-20 bg-gradient-to-r from-[#d4af37] to-[#f4d03f] text-[#1a1a2e] px-4 py-1.5 rounded-full text-xs font-bold shadow-lg gold-border-glow animate-pulse">
           {badge}
         </div>
       )}
-      <div className="relative h-64 overflow-hidden">
+      <div className="relative h-64 overflow-hidden flex-shrink-0">
         <Image
           src={images[0]}
           alt={name}
@@ -59,14 +59,14 @@ export default function PackageCard({
         </div>
       </div>
 
-      <CardContent className="p-6 relative">
+      <CardContent className="p-6 relative flex flex-col flex-grow">
         <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
         
-        <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-[#d4af37] transition-colors duration-300 gold-glow">
+        <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-[#d4af37] transition-colors duration-300 gold-glow flex-shrink-0">
           {name}
         </h3>
 
-        <div className="flex items-center gap-4 mb-5 text-[#d4af37]">
+        <div className="flex items-center gap-4 mb-5 text-[#d4af37] flex-shrink-0">
           <div className="flex items-center gap-2 bg-[#d4af37]/10 px-3 py-1.5 rounded-full">
             <Clock className="w-4 h-4 text-[#d4af37]" />
             <span className="text-sm font-semibold">{duration}</span>
@@ -77,9 +77,9 @@ export default function PackageCard({
           </div>
         </div>
 
-        <p className="text-gray-300 mb-6 line-clamp-3 leading-relaxed text-sm">{description}</p>
+        <p className="text-gray-300 mb-6 leading-relaxed text-sm flex-grow line-clamp-3">{description}</p>
 
-        <div className="pt-4 border-t border-[#d4af37]/20">
+        <div className="pt-4 border-t border-[#d4af37]/20 flex-shrink-0">
           <Link href={`/booking?package=${id}`}>
             <Button className="w-full bg-gradient-to-r from-[#d4af37] to-[#f4d03f] hover:from-[#f4d03f] hover:to-[#ffd700] text-[#1a1a2e] py-3 text-lg font-bold shadow-lg hover:shadow-[#d4af37]/50 transform hover:scale-105 transition-all duration-300">
               Book Now
