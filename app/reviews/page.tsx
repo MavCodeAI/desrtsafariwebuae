@@ -29,12 +29,12 @@ export default function ReviewsPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#0f0f1e] via-[#1a1a2e] to-[#0f0f1e] pt-32 pb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
+        <div className="text-center mb-16 animate-fade-in">
+          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 animate-slide-up heading-luxury">
             Customer Reviews
           </h1>
-          <div className="w-24 h-1 bg-[#d4af37] mx-auto mb-6"></div>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <div className="w-24 h-1 bg-[#d4af37] mx-auto mb-6 animate-scale-in"></div>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto animate-fade-in-delayed">
             See what our guests say about their desert safari experiences
           </p>
         </div>
@@ -44,11 +44,12 @@ export default function ReviewsPage() {
           {stats.map((stat, index) => (
             <Card
               key={index}
-              className="border-[#d4af37]/20 bg-gradient-to-br from-[#1a1a2e] to-[#16213e] text-center"
+              className="border-[#d4af37]/20 bg-gradient-to-br from-[#1a1a2e] to-[#16213e] text-center hover:border-[#d4af37] hover:shadow-2xl hover:shadow-[#d4af37]/20 transition-all duration-500 transform hover:scale-105 animate-fade-in-up"
+              style={{ animationDelay: `${index * 0.1}s` }}
             >
               <CardContent className="pt-8 pb-6">
-                <TrendingUp className="w-10 h-10 text-[#d4af37] mx-auto mb-4" />
-                <h3 className="text-4xl font-bold text-[#d4af37] mb-2">
+                <TrendingUp className="w-10 h-10 text-[#d4af37] mx-auto mb-4 animate-pulse-slow" />
+                <h3 className="text-4xl font-bold text-[#d4af37] mb-2 animate-counter">
                   {stat.value}
                 </h3>
                 <p className="text-gray-300">{stat.label}</p>
@@ -58,18 +59,19 @@ export default function ReviewsPage() {
         </div>
 
         {/* Filter */}
-        <div className="mb-12">
+        <div className="mb-12 animate-fade-in">
           <div className="flex flex-wrap justify-center gap-3">
-            {packages.map((pkg) => (
+            {packages.map((pkg, index) => (
               <Button
                 key={pkg}
                 onClick={() => setSelectedPackage(pkg)}
                 variant={selectedPackage === pkg ? 'default' : 'outline'}
-                className={
+                className={`transition-all duration-300 transform hover:scale-110 hover:shadow-lg ${
                   selectedPackage === pkg
-                    ? 'bg-[#d4af37] hover:bg-[#f4d03f] text-[#1a1a2e] font-semibold'
-                    : 'border-[#d4af37]/30 text-gray-300 hover:bg-[#d4af37]/20 hover:text-white'
-                }
+                    ? 'bg-[#d4af37] hover:bg-[#f4d03f] text-[#1a1a2e] font-semibold shadow-lg shadow-[#d4af37]/30'
+                    : 'border-[#d4af37]/30 text-gray-300 hover:bg-[#d4af37]/20 hover:text-white hover:border-[#d4af37]/50'
+                }`}
+                style={{ animationDelay: `${index * 0.05}s` }}
               >
                 {pkg === 'all' ? 'All Packages' : pkg}
               </Button>
@@ -79,18 +81,19 @@ export default function ReviewsPage() {
 
         {/* Reviews Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredReviews.map((review) => (
+          {filteredReviews.map((review, index) => (
             <Card
               key={review.id}
-              className="border-[#d4af37]/20 bg-gradient-to-br from-[#1a1a2e] to-[#16213e] hover:border-[#d4af37] transition-all"
+              className="border-[#d4af37]/20 bg-gradient-to-br from-[#1a1a2e] to-[#16213e] hover:border-[#d4af37] hover:shadow-2xl hover:shadow-[#d4af37]/20 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 animate-fade-in-up group"
+              style={{ animationDelay: `${index * 0.1}s` }}
             >
               <CardContent className="pt-6 space-y-4">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full overflow-hidden bg-[#d4af37]/20 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-full overflow-hidden bg-[#d4af37]/20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
                     <User className="w-6 h-6 text-[#d4af37]" />
                   </div>
                   <div>
-                    <h3 className="text-white font-semibold">{review.name}</h3>
+                    <h3 className="text-white font-semibold group-hover:text-[#d4af37] transition-colors duration-300">{review.name}</h3>
                     <p className="text-gray-400 text-sm">{review.country}</p>
                   </div>
                 </div>
@@ -100,20 +103,21 @@ export default function ReviewsPage() {
                   {[...Array(review.rating)].map((_, i) => (
                     <Star
                       key={i}
-                      className="w-5 h-5 fill-[#d4af37] text-[#d4af37]"
+                      className="w-5 h-5 fill-[#d4af37] text-[#d4af37] animate-star-glow"
+                      style={{ animationDelay: `${i * 0.1}s` }}
                     />
                   ))}
                 </div>
 
                 {/* Package */}
-                <div className="inline-block px-3 py-1 bg-[#d4af37]/20 rounded-full">
+                <div className="inline-block px-3 py-1 bg-[#d4af37]/20 rounded-full hover:bg-[#d4af37]/30 transition-colors duration-300">
                   <p className="text-sm text-[#d4af37] font-semibold">
                     {review.package}
                   </p>
                 </div>
 
                 {/* Review Text */}
-                <p className="text-gray-300 italic">
+                <p className="text-gray-300 italic group-hover:text-gray-200 transition-colors duration-300">
                   &quot;{review.review}&quot;
                 </p>
 
@@ -127,7 +131,7 @@ export default function ReviewsPage() {
         </div>
 
         {filteredReviews.length === 0 && (
-          <div className="text-center py-20">
+          <div className="text-center py-20 animate-fade-in">
             <p className="text-gray-400 text-xl">No reviews found for this package.</p>
           </div>
         )}
