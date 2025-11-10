@@ -4,8 +4,11 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useLanguage } from '@/contexts/LanguageContext';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 export default function Navbar() {
+  const { language, t } = useLanguage();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -19,12 +22,12 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { href: '/', label: 'Home' },
-    { href: '/packages', label: 'Packages' },
-    { href: '/gallery', label: 'Gallery' },
-    { href: '/blog', label: 'Blog' },
-    { href: '/about', label: 'About' },
-    { href: '/contact', label: 'Contact' },
+    { href: '/', label: t('nav_home') },
+    { href: '/packages', label: t('nav_packages') },
+    { href: '/gallery', label: t('nav_gallery') },
+    { href: '/blog', label: t('nav_blog') },
+    { href: '/about', label: t('nav_about') },
+    { href: '/contact', label: t('nav_contact') },
   ];
 
   return (
@@ -36,15 +39,15 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className={`flex items-center justify-between h-20 ${language === 'ar' ? 'flex-row-reverse' : ''}`}>
           <Link
             href="/"
             className="text-2xl font-bold text-[#d4af37] hover:text-[#f4d03f] transition-all duration-300 gold-glow transform hover:scale-105"
           >
-            Dubai Desert Safari
+            {language === 'ar' ? 'سفاري صحراء دبي' : 'Dubai Desert Safari'}
           </Link>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className={`hidden md:flex items-center ${language === 'ar' ? 'space-x-reverse' : ''} space-x-8`}>
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -52,13 +55,15 @@ export default function Navbar() {
                 className="text-white hover:text-[#d4af37] transition-all duration-300 text-base font-medium relative group"
               >
                 {link.label}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-[#d4af37] to-[#f4d03f] group-hover:w-full transition-all duration-300"></span>
+                <span className={`absolute bottom-0 ${language === 'ar' ? 'right-0' : 'left-0'} w-0 h-0.5 bg-gradient-to-r from-[#d4af37] to-[#f4d03f] group-hover:w-full transition-all duration-300`}></span>
               </Link>
             ))}
 
+            <LanguageSwitcher />
+
             <Link href="/booking">
               <Button className="bg-gradient-to-r from-[#d4af37] to-[#f4d03f] hover:from-[#f4d03f] hover:to-[#ffd700] text-[#1a1a2e] font-bold shadow-lg hover:shadow-[#d4af37]/50 transform hover:scale-105 transition-all duration-300">
-                Book Now
+                {t('nav_booking')}
               </Button>
             </Link>
           </div>
@@ -78,7 +83,11 @@ export default function Navbar() {
 
       {isMobileMenuOpen && (
         <div className="md:hidden bg-[#0f0f1e]/98 backdrop-blur-md border-t border-[#d4af37]/20">
-          <div className="px-4 py-6 space-y-4">
+          <div className={`px-4 py-6 ${language === 'ar' ? 'text-right' : ''} space-y-4`}>
+            <div className="flex justify-center mb-4">
+              <LanguageSwitcher />
+            </div>
+
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -92,7 +101,7 @@ export default function Navbar() {
 
             <Link href="/booking" onClick={() => setIsMobileMenuOpen(false)}>
               <Button className="w-full bg-gradient-to-r from-[#d4af37] to-[#f4d03f] hover:from-[#f4d03f] hover:to-[#ffd700] text-[#1a1a2e] font-bold shadow-lg">
-                Book Now
+                {t('nav_booking')}
               </Button>
             </Link>
           </div>
