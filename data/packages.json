@@ -4,6 +4,7 @@
     "name": "Evening Desert Safari",
     "duration": "4 hours",
     "price": 110,
+    "priceAED": 404,
     "description": "Experience the golden hour magic with exhilarating dune bashing, authentic camel rides, and a sumptuous BBQ dinner under the stars",
     "full_description": "Our Evening Desert Safari is the perfect introduction to the Arabian desert. Begin your adventure with thrilling dune bashing in a 4x4 Land Cruiser, followed by a serene camel ride as the sun sets over the golden dunes. End your evening at our traditional Bedouin-style camp with live entertainment, henna painting, and a delicious BBQ dinner featuring local and international cuisine.",
     "included": [
@@ -60,13 +61,15 @@
       "https://images.pexels.com/photos/3568037/pexels-photo-3568037.jpeg"
     ],
     "duration": "24 hours",
-    "price": 180
+    "price": 180,
+    "priceAED": 661
   },
   {
     "id": "3",
     "name": "Morning Desert Safari",
     "duration": "3 hours",
     "price": 95,
+    "priceAED": 349,
     "description": "Beat the heat with an early morning adventure featuring dune bashing, sandboarding, and camel rides in cooler temperatures",
     "full_description": "Start your day with an adrenaline rush in the cool morning desert. Perfect for those who want to avoid the heat, this safari includes thrilling dune bashing, sandboarding down the dunes, and a peaceful camel ride through the golden landscape. Light refreshments are included.",
     "included": [
@@ -116,13 +119,15 @@
       "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg"
     ],
     "duration": "6 hours",
-    "price": 350
+    "price": 350,
+    "priceAED": 1285
   },
   {
     "id": "5",
     "name": "Family Desert Adventure",
     "duration": "6 hours",
     "price": 180,
+    "priceAED": 661,
     "description": "Perfect family-friendly desert experience with gentle activities, kids entertainment, and family-oriented dining",
     "full_description": "Our Family Desert Adventure is specially designed for families with children. Enjoy gentle dune bashing, short camel rides, sand castle building, and family-friendly entertainment. Children get special kid's entertainment and meals are family-oriented with plenty of options for all ages.",
     "included": [
@@ -150,6 +155,7 @@
     "name": "Luxury Desert Spa Experience",
     "duration": "8 hours",
     "price": 450,
+    "priceAED": 1652,
     "description": "Ultimate relaxation in the desert with spa treatments, private dining, and luxury accommodations",
     "full_description": "Indulge in the ultimate desert luxury with our Spa Experience. Enjoy professional spa treatments in desert tents, private dining with gourmet cuisine, luxury accommodations, and personalized service. This is the perfect way to relax and rejuvenate in the Arabian desert.",
     "included": [
@@ -179,6 +185,7 @@
     "name": "Adventure Quad Biking Safari",
     "duration": "4 hours",
     "price": 200,
+    "priceAED": 734,
     "description": "Thrilling quad biking adventure through massive sand dunes with professional instructors and safety equipment",
     "full_description": "Experience the ultimate adrenaline rush with our Quad Biking Safari. Race through massive sand dunes at high speeds under the guidance of professional instructors. Includes all safety equipment, ATV maintenance, and a BBQ dinner to celebrate your adventure.",
     "included": [
@@ -208,6 +215,7 @@
     "badge": "Romantic",
     "duration": "5 hours",
     "price": 280,
+    "priceAED": 1028,
     "description": "Intimate couples experience with private dining, champagne, and breathtaking desert sunset views",
     "full_description": "Create unforgettable memories with your loved one during our Romantic Sunset Experience. Enjoy a private camel ride at golden hour, a gourmet dinner for two with champagne, and stargazing from a premium viewing platform. Perfect for proposals, anniversaries, or special celebrations.",
     "included": [
@@ -236,6 +244,7 @@
     "name": "Cultural Heritage Tour",
     "duration": "6 hours",
     "price": 220,
+    "priceAED": 808,
     "description": "Deep dive into Bedouin culture with traditional crafts, storytelling, and authentic Arabian hospitality",
     "full_description": "Immerse yourself in the rich Bedouin heritage with our Cultural Heritage Tour. Learn traditional crafts like weaving and pottery, listen to ancient stories around the campfire, and experience genuine Arabian hospitality. Includes traditional tea ceremonies and cultural performances.",
     "included": [
@@ -264,6 +273,7 @@
     "name": "Extreme Desert Challenge",
     "duration": "8 hours",
     "price": 400,
+    "priceAED": 1468,
     "description": "Ultimate adventure combining quad biking, sandboarding, and overnight camping for thrill-seekers",
     "full_description": "Push your limits with our Extreme Desert Challenge. Combine high-speed quad biking, extreme sandboarding down massive dunes, and an overnight adventure under the stars. Perfect for adrenaline junkies seeking the ultimate desert experience.",
     "included": [
@@ -323,6 +333,7 @@
       "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg"
     ],
     "duration": "24 hours",
-    "price": 2500
+    "price": 2500,
+    "priceAED": 9175
   }
 ]

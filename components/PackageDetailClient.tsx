@@ -11,6 +11,7 @@ interface PackageDetailClientProps {
     name: string;
     duration: string;
     price: number;
+    priceAED: number;
     description: string;
     full_description: string;
     included: string[];
@@ -104,9 +105,15 @@ export default function PackageDetailClient({
                 <Clock className="w-5 h-5 text-[#d4af37]" />
                 <span>{packageData.duration}</span>
               </div>
-              <div className="flex items-center gap-2 text-2xl font-bold text-[#d4af37]">
-                <DollarSign className="w-6 h-6" />
-                <span>${packageData.price}</span>
+              <div className="flex items-center gap-4 text-lg">
+                <div className="flex items-center gap-2 text-[#d4af37] font-bold">
+                  <DollarSign className="w-5 h-5" />
+                  <span>${packageData.price} USD</span>
+                </div>
+                <div className="text-gray-400">|</div>
+                <div className="flex items-center gap-2 text-[#d4af37] font-bold">
+                  <span>AED {packageData.priceAED}</span>
+                </div>
                 <span className="text-base font-normal text-gray-300">
                   / person
                 </span>

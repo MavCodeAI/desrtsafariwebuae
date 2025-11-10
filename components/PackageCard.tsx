@@ -11,6 +11,7 @@ interface PackageCardProps {
   name: string;
   duration: string;
   price: number;
+  priceAED: number;
   description: string;
   images: string[];
   featured?: boolean;
@@ -22,6 +23,7 @@ export default function PackageCard({
   name,
   duration,
   price,
+  priceAED,
   description,
   images,
   featured,
@@ -47,7 +49,13 @@ export default function PackageCard({
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent group-hover:from-black/80" />
         <div className="absolute inset-0 bg-gradient-to-br from-[#d4af37]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
         <div className="absolute top-4 right-4 bg-gradient-to-r from-[#d4af37] to-[#f4d03f] text-[#1a1a2e] px-5 py-2.5 rounded-full font-bold text-lg shadow-2xl gold-border-glow transform group-hover:scale-110 transition-transform duration-300">
-          ${price}
+          <div className="text-center">
+            <div className="text-sm opacity-90">USD</div>
+            <div>${price}</div>
+            <div className="text-xs opacity-75 border-t border-[#1a1a2e]/20 pt-1 mt-1">
+              AED {priceAED}
+            </div>
+          </div>
         </div>
       </div>
 
@@ -65,7 +73,7 @@ export default function PackageCard({
           </div>
           <div className="flex items-center gap-2 bg-[#d4af37]/10 px-3 py-1.5 rounded-full">
             <DollarSign className="w-4 h-4 text-[#d4af37]" />
-            <span className="text-sm font-semibold">${price}/person</span>
+            <span className="text-sm font-semibold">${price} USD / {priceAED} AED</span>
           </div>
         </div>
 
