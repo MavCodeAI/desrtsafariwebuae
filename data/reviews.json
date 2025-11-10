@@ -128,5 +128,125 @@
     "package": "Dream Desert Safari",
     "review": "This experience redefined luxury in the desert. The personal astronomer for stargazing, private chef, and luxury accommodations made it unforgettable. Worth every penny!",
     "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg"
+  },
+  {
+    "id": "14",
+    "name": "Ahmed Hassan",
+    "country": "Egypt",
+    "rating": 5,
+    "date": "2024-11-12",
+    "package": "Budget Desert Adventure",
+    "review": "Perfect for budget travelers! Got all the essential desert experiences at an amazing price. The dune bashing was thrilling and the BBQ dinner was delicious. Highly recommended for first-time visitors!",
+    "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+  },
+  {
+    "id": "15",
+    "name": "Sarah Johnson",
+    "country": "Canada",
+    "rating": 5,
+    "date": "2024-11-10",
+    "package": "Budget Desert Adventure",
+    "review": "Great value for money! All activities included and the service was excellent. The sandboarding was so much fun and the traditional entertainment was authentic. Will definitely recommend to friends!",
+    "avatar": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg"
+  },
+  {
+    "id": "16",
+    "name": "Mike Chen",
+    "country": "Australia",
+    "rating": 5,
+    "date": "2024-11-14",
+    "package": "Adventure Quad Safari",
+    "review": "Adrenaline rush like no other! The quad biking through massive dunes was incredible. Professional instructors and safety equipment made it safe yet exciting. The BBQ celebration dinner was the perfect end!",
+    "avatar": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg"
+  },
+  {
+    "id": "17",
+    "name": "Emma Rodriguez",
+    "country": "Spain",
+    "rating": 4,
+    "date": "2024-11-13",
+    "package": "Adventure Quad Safari",
+    "review": "Thrilling quad experience! The training was thorough and the safety gear was top-notch. Racing through the dunes at sunset was magical. A bit tiring but totally worth it for the adventure!",
+    "avatar": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg"
+  },
+  {
+    "id": "18",
+    "name": "John Smith",
+    "country": "United States",
+    "rating": 5,
+    "date": "2024-11-11",
+    "package": "Desert Camping Under Stars",
+    "review": "Peaceful camping experience under the stars! The Bedouin tents were comfortable, stargazing with telescope was amazing, and the desert wildlife spotting was educational. Perfect for nature lovers!",
+    "avatar": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg"
+  },
+  {
+    "id": "19",
+    "name": "Lisa Wong",
+    "country": "Singapore",
+    "rating": 5,
+    "date": "2024-11-09",
+    "package": "Desert Camping Under Stars",
+    "review": "Truly authentic desert experience! Sleeping under the stars in traditional tents, campfire storytelling, and the morning desert walk made this unforgettable. The tranquility was heavenly!",
+    "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"
+  },
+  {
+    "id": "20",
+    "name": "Carlos Mendes",
+    "country": "Brazil",
+    "rating": 5,
+    "date": "2024-11-08",
+    "package": "Photography Desert Tour",
+    "review": "Perfect for photographers! The guide knew all the best spots for stunning shots. The camel riding photo session and sunset photography setup were incredible. Got amazing shots and learned new techniques!",
+    "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg"
+  },
+  {
+    "id": "21",
+    "name": "Anna Petrov",
+    "country": "Russia",
+    "rating": 5,
+    "date": "2024-11-07",
+    "package": "Photography Desert Tour",
+    "review": "Exceptional photography experience! Professional guidance and access to the most beautiful locations. The traditional costume photo shoot was unique and the sample photos were helpful. Highly recommended!",
+    "avatar": "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg"
+  },
+  {
+    "id": "22",
+    "name": "Yuki Tanaka",
+    "country": "Japan",
+    "rating": 5,
+    "date": "2024-11-06",
+    "package": "Desert Wellness Retreat",
+    "review": "Peaceful and rejuvenating! The yoga sessions at sunrise, aromatherapy treatments, and mindfulness exercises were perfect for relaxation. The organic meals were delicious and healthy. Pure bliss!",
+    "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+  },
+  {
+    "id": "23",
+    "name": "Sophie Laurent",
+    "country": "France",
+    "rating": 5,
+    "date": "2024-11-05",
+    "package": "Desert Wellness Retreat",
+    "review": "Amazing wellness experience! The combination of desert tranquility and holistic practices was transformative. The herbal tea ceremonies and sunset meditation were particularly special. Highly rejuvenating!",
+    "avatar": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg"
+  },
+  {
+    "id": "24",
+    "name": "Omar Al-Rashid",
+    "country": "Saudi Arabia",
+    "rating": 5,
+    "date": "2024-11-04",
+    "package": "Desert Festival Experience",
+    "review": "Authentic cultural celebration! The traditional music and folk dances brought back memories of our heritage. The festive dinner was delicious and the fire dancing was spectacular. Truly memorable!",
+    "avatar": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg"
+  },
+  {
+    "id": "25",
+    "name": "Fatima Al-Zahra",
+    "country": "Morocco",
+    "rating": 5,
+    "date": "2024-11-03",
+    "package": "Desert Festival Experience",
+    "review": "Beautiful cultural experience! The performances were authentic and the energy was infectious. Participating in traditional games and enjoying the local cuisine made it special. Would love to come again!",
+    "avatar": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg"
   }
 ]

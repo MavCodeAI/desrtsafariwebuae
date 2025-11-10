@@ -335,5 +335,202 @@
     "duration": "24 hours",
     "price": 2500,
     "priceAED": 9175
+  },
+  {
+    "id": "12",
+    "name": "Budget Desert Adventure",
+    "featured": false,
+    "badge": "Budget Friendly",
+    "description": "Affordable desert experience with all essential activities included, perfect for budget-conscious travelers",
+    "full_description": "Experience the magic of the desert without breaking the bank with our Budget Desert Adventure. This comprehensive package includes all the essential desert activities at a fraction of the cost of luxury packages, making desert exploration accessible to everyone.",
+    "included": [
+      "Pick-up and drop-off from Dubai",
+      "Dune bashing (45 minutes)",
+      "Sandboarding",
+      "Camel riding",
+      "Traditional BBQ dinner",
+      "Live entertainment show",
+      "Soft drinks and water",
+      "Photo opportunities"
+    ],
+    "excluded": [
+      "Alcoholic beverages",
+      "Premium seating",
+      "Henna painting",
+      "Personal expenses"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/2131828/pexels-photo-2131828.jpeg",
+      "https://images.pexels.com/photos/3568039/pexels-photo-3568039.jpeg",
+      "https://images.pexels.com/photos/3568037/pexels-photo-3568037.jpeg"
+    ],
+    "duration": "5 hours",
+    "price": 75,
+    "priceAED": 275
+  },
+  {
+    "id": "13",
+    "name": "Adventure Quad Safari",
+    "featured": true,
+    "badge": "Extreme Adventure",
+    "description": "High-octane quad biking experience through massive dunes with professional training and safety equipment",
+    "full_description": "Unleash your inner adventurer with our Adventure Quad Safari. Race through towering sand dunes on powerful quad bikes, experience the thrill of desert racing, and push your limits in one of the most exciting desert activities available.",
+    "included": [
+      "Professional quad bike instruction",
+      "Safety equipment and protective gear",
+      "Fuel and maintenance",
+      "Pick-up and drop-off from Dubai",
+      "Adventure photography",
+      "Energy snacks and water",
+      "First aid kit",
+      "Adventure certificate",
+      "BBQ dinner celebration"
+    ],
+    "excluded": [
+      "Alcoholic beverages",
+      "Medical insurance",
+      "Personal expenses",
+      "Additional activities"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/163036/pexels-photo-163036.jpeg",
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg",
+      "https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg"
+    ],
+    "duration": "6 hours",
+    "price": 220,
+    "priceAED": 808
+  },
+  {
+    "id": "14",
+    "name": "Desert Camping Under Stars",
+    "featured": false,
+    "badge": "Overnight Stay",
+    "description": "Authentic desert camping experience with stargazing, traditional Bedouin tents, and desert wildlife spotting",
+    "full_description": "Immerse yourself in the tranquility of the desert with our authentic camping experience. Sleep under a blanket of stars in traditional Bedouin tents, learn about desert wildlife, and experience the peacefulness of the Arabian desert at night.",
+    "included": [
+      "Pick-up and drop-off from Dubai",
+      "Traditional Bedouin tent accommodation",
+      "Dune bashing experience",
+      "Camel riding",
+      "Stargazing with telescope",
+      "Desert wildlife spotting",
+      "Traditional breakfast and dinner",
+      "Campfire storytelling",
+      "Morning desert walk"
+    ],
+    "excluded": [
+      "Alcoholic beverages",
+      "Personal toiletries",
+      "Additional meals",
+      "Transportation outside Dubai"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/3568039/pexels-photo-3568039.jpeg",
+      "https://images.pexels.com/photos/3568037/pexels-photo-3568037.jpeg",
+      "https://images.pexels.com/photos/2131828/pexels-photo-2131828.jpeg"
+    ],
+    "duration": "18 hours",
+    "price": 160,
+    "priceAED": 588
+  },
+  {
+    "id": "15",
+    "name": "Photography Desert Tour",
+    "featured": false,
+    "badge": "Photography",
+    "description": "Specialized photography tour capturing stunning desert landscapes, wildlife, and traditional Bedouin life",
+    "full_description": "Capture the breathtaking beauty of the Arabian desert with our specialized Photography Desert Tour. Led by professional photographers, this tour takes you to the most picturesque locations for stunning shots of dunes, wildlife, and traditional desert life.",
+    "included": [
+      "Professional photography guide",
+      "Photography tips and techniques",
+      "Best shooting locations access",
+      "Camel riding photo session",
+      "Sunset photography setup",
+      "Traditional costume photo shoot",
+      "Light refreshments",
+      "Photo editing tips",
+      "Memory card with sample photos"
+    ],
+    "excluded": [
+      "Camera equipment rental",
+      "Professional editing services",
+      "Personal expenses",
+      "Transportation outside Dubai"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg",
+      "https://images.pexels.com/photos/3568038/pexels-photo-3568038.jpeg",
+      "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg"
+    ],
+    "duration": "6 hours",
+    "price": 180,
+    "priceAED": 661
+  },
+  {
+    "id": "16",
+    "name": "Desert Wellness Retreat",
+    "featured": false,
+    "badge": "Wellness",
+    "description": "Relaxing desert experience combining meditation, yoga, and holistic wellness activities in serene surroundings",
+    "full_description": "Find inner peace and rejuvenation in the tranquil desert with our Desert Wellness Retreat. Combine gentle desert activities with meditation, yoga, and holistic wellness practices for a truly restorative experience.",
+    "included": [
+      "Gentle desert activities",
+      "Yoga and meditation sessions",
+      "Aromatherapy treatments",
+      "Herbal tea ceremonies",
+      "Mindfulness exercises",
+      "Healthy organic meals",
+      "Relaxing camel rides",
+      "Sunset meditation",
+      "Wellness consultation"
+    ],
+    "excluded": [
+      "Alcoholic beverages",
+      "Intensive spa treatments",
+      "Personal wellness products",
+      "Medical consultations"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/3568041/pexels-photo-3568041.jpeg",
+      "https://images.pexels.com/photos/3568042/pexels-photo-3568042.jpeg",
+      "https://images.pexels.com/photos/3568043/pexels-photo-3568043.jpeg"
+    ],
+    "duration": "8 hours",
+    "price": 250,
+    "priceAED": 917
+  },
+  {
+    "id": "17",
+    "name": "Desert Festival Experience",
+    "featured": true,
+    "badge": "Cultural Festival",
+    "description": "Immersive cultural festival in the desert with traditional music, dance performances, and festive celebrations",
+    "full_description": "Experience the vibrant culture of the UAE with our Desert Festival Experience. Join traditional music performances, folk dances, and cultural celebrations that bring the spirit of Arabian heritage to life in the stunning desert setting.",
+    "included": [
+      "Traditional music performances",
+      "Folk dance shows",
+      "Cultural costume displays",
+      "Festive dinner with local cuisine",
+      "Fire dancing performance",
+      "Traditional games and activities",
+      "Photo opportunities with performers",
+      "Cultural storytelling",
+      "Festival souvenirs"
+    ],
+    "excluded": [
+      "Alcoholic beverages",
+      "Personal festival purchases",
+      "Transportation outside Dubai",
+      "Professional photography"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/3785930/pexels-photo-3785930.jpeg",
+      "https://images.pexels.com/photos/3568044/pexels-photo-3568044.jpeg",
+      "https://images.pexels.com/photos/3568045/pexels-photo-3568045.jpeg"
+    ],
+    "duration": "6 hours",
+    "price": 190,
+    "priceAED": 697
   }
 ]
