@@ -98,5 +98,35 @@
     "package": "Evening Desert Safari",
     "review": "Magnifique! The cultural experience was authentic and the hospitality was warm. Arabic coffee ceremony was delightful. Beautiful memories created with family!",
     "avatar": "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg"
+  },
+  {
+    "id": "11",
+    "name": "David Beckham",
+    "country": "United Kingdom",
+    "rating": 5,
+    "date": "2024-11-08",
+    "package": "Dream Desert Safari",
+    "review": "The Dream Safari was beyond imagination! Helicopter transfer, private oasis, and personal concierge service made this the ultimate luxury experience. The bespoke dining with champagne was extraordinary!",
+    "avatar": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg"
+  },
+  {
+    "id": "12",
+    "name": "Maria Sharapova",
+    "country": "Russia",
+    "rating": 5,
+    "date": "2024-11-06",
+    "package": "Dream Desert Safari",
+    "review": "Absolutely magical! The helicopter ride over the desert was breathtaking, and the private oasis with luxury spa treatments was pure heaven. Every detail was perfection!",
+    "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"
+  },
+  {
+    "id": "13",
+    "name": "Leonardo DiCaprio",
+    "country": "United States",
+    "rating": 5,
+    "date": "2024-11-04",
+    "package": "Dream Desert Safari",
+    "review": "This experience redefined luxury in the desert. The personal astronomer for stargazing, private chef, and luxury accommodations made it unforgettable. Worth every penny!",
+    "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg"
   }
 ]

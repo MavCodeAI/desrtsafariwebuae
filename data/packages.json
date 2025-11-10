@@ -287,5 +287,42 @@
       "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg",
       "https://images.pexels.com/photos/3568037/pexels-photo-3568037.jpeg"
     ]
+  },
+  {
+    "id": "11",
+    "name": "Dream Desert Safari",
+    "featured": true,
+    "badge": "Ultimate Luxury",
+    "description": "The ultimate desert fantasy experience with helicopter transfer, private oasis, and bespoke luxury services",
+    "full_description": "Turn your desert dreams into reality with our Dream Desert Safari. Experience the ultimate luxury with helicopter transfers, a private desert oasis, bespoke dining experiences, and personalized services. This exclusive package includes everything you could imagine for the perfect Arabian adventure.",
+    "included": [
+      "Helicopter transfer from/to Dubai",
+      "Private desert oasis with luxury tent",
+      "Personal concierge service",
+      "Bespoke gourmet dining experience",
+      "Private chef and sommelier",
+      "Luxury spa treatments in desert setting",
+      "Private falcon demonstration",
+      "Personal photographer and videographer",
+      "Custom jewelry and luxury souvenirs",
+      "Champagne and premium beverages",
+      "Stargazing with professional astronomer",
+      "Sunrise hot air balloon (optional)",
+      "Luxury transportation throughout",
+      "24/7 personal assistant"
+    ],
+    "excluded": [
+      "International flights",
+      "Additional helicopter tours",
+      "Extra spa treatments",
+      "Personal shopping expenses"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/3568040/pexels-photo-3568040.jpeg",
+      "https://images.pexels.com/photos/2449600/pexels-photo-2449600.jpeg",
+      "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg"
+    ],
+    "duration": "24 hours",
+    "price": 2500
   }
 ]
