@@ -1,0 +1,291 @@
+[
+  {
+    "id": "1",
+    "name": "Evening Desert Safari",
+    "duration": "4 hours",
+    "price": 110,
+    "description": "Experience the golden hour magic with exhilarating dune bashing, authentic camel rides, and a sumptuous BBQ dinner under the stars",
+    "full_description": "Our Evening Desert Safari is the perfect introduction to the Arabian desert. Begin your adventure with thrilling dune bashing in a 4x4 Land Cruiser, followed by a serene camel ride as the sun sets over the golden dunes. End your evening at our traditional Bedouin-style camp with live entertainment, henna painting, and a delicious BBQ dinner featuring local and international cuisine.",
+    "included": [
+      "Pick-up and drop-off from Dubai",
+      "Dune bashing (30-40 minutes)",
+      "Camel riding",
+      "Sandboarding",
+      "Henna painting",
+      "Traditional costume photo opportunity",
+      "BBQ dinner with vegetarian options",
+      "Live entertainment (Belly dance, Tanoura show)",
+      "Unlimited soft drinks, water, tea, and coffee"
+    ],
+    "excluded": [
+      "Alcoholic beverages",
+      "Quad biking (available at extra cost)",
+      "Personal expenses"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg",
+      "https://images.pexels.com/photos/3785930/pexels-photo-3785930.jpeg",
+      "https://images.pexels.com/photos/1188470/pexels-photo-1188470.jpeg"
+    ],
+    "featured": true,
+    "badge": "Most Popular"
+  },
+  {
+    "id": "2",
+    "name": "Overnight Desert Safari",
+    "featured": true,
+    "badge": "Best Value",
+    "description": "Immerse yourself in the desert with a full night experience including camping, stargazing, and traditional Arabian hospitality",
+    "full_description": "Experience the desert like never before with our Overnight Safari. Watch the sunset while dune bashing, enjoy a traditional BBQ dinner with entertainment, and sleep under a blanket of stars in comfortable Bedouin-style tents. Wake up to a stunning sunrise and savor a delicious breakfast before heading back to the city.",
+    "included": [
+      "Pick-up and drop-off from Dubai",
+      "Dune bashing",
+      "Camel riding",
+      "Sandboarding",
+      "Henna painting",
+      "BBQ dinner and breakfast",
+      "Overnight camping in traditional tents",
+      "Live entertainment",
+      "Stargazing experience",
+      "All meals and refreshments"
+    ],
+    "excluded": [
+      "Alcoholic beverages",
+      "Personal expenses",
+      "Quad biking"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/2131828/pexels-photo-2131828.jpeg",
+      "https://images.pexels.com/photos/3568039/pexels-photo-3568039.jpeg",
+      "https://images.pexels.com/photos/3568037/pexels-photo-3568037.jpeg"
+    ],
+    "duration": "24 hours",
+    "price": 180
+  },
+  {
+    "id": "3",
+    "name": "Morning Desert Safari",
+    "duration": "3 hours",
+    "price": 95,
+    "description": "Beat the heat with an early morning adventure featuring dune bashing, sandboarding, and camel rides in cooler temperatures",
+    "full_description": "Start your day with an adrenaline rush in the cool morning desert. Perfect for those who want to avoid the heat, this safari includes thrilling dune bashing, sandboarding down the dunes, and a peaceful camel ride through the golden landscape. Light refreshments are included.",
+    "included": [
+      "Pick-up and drop-off from Dubai",
+      "Dune bashing (30 minutes)",
+      "Sandboarding",
+      "Camel riding",
+      "Light refreshments and water"
+    ],
+    "excluded": [
+      "Breakfast",
+      "Entertainment",
+      "Quad biking"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/2422259/pexels-photo-2422259.jpeg",
+      "https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg",
+      "https://images.pexels.com/photos/3568038/pexels-photo-3568038.jpeg"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "VIP Premium Desert Safari",
+    "featured": true,
+    "badge": "Premium",
+    "description": "Luxury desert experience with private vehicle, premium seating, gourmet dining, and exclusive entertainment",
+    "full_description": "Indulge in the ultimate desert luxury with our VIP Premium Safari. Enjoy private transportation in a luxury 4x4, reserved premium seating at the camp, a gourmet five-course dinner prepared by our chef, and exclusive live entertainment. This is the perfect choice for those seeking an elevated desert experience.",
+    "included": [
+      "Private pick-up and drop-off",
+      "Luxury 4x4 vehicle",
+      "Private dune bashing session",
+      "Falcon photography",
+      "Private camel ride",
+      "Premium VIP seating area",
+      "Five-course gourmet dinner",
+      "Unlimited premium beverages",
+      "Private entertainment show",
+      "Souvenir gifts"
+    ],
+    "excluded": [
+      "Alcoholic beverages",
+      "Helicopter tour (available on request)"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/2449600/pexels-photo-2449600.jpeg",
+      "https://images.pexels.com/photos/3568040/pexels-photo-3568040.jpeg",
+      "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg"
+    ],
+    "duration": "6 hours",
+    "price": 350
+  },
+  {
+    "id": "5",
+    "name": "Family Desert Adventure",
+    "duration": "6 hours",
+    "price": 180,
+    "description": "Perfect family-friendly desert experience with gentle activities, kids entertainment, and family-oriented dining",
+    "full_description": "Our Family Desert Adventure is specially designed for families with children. Enjoy gentle dune bashing, short camel rides, sand castle building, and family-friendly entertainment. Children get special kid's entertainment and meals are family-oriented with plenty of options for all ages.",
+    "included": [
+      "Pick-up and drop-off from Dubai",
+      "Gentle dune bashing",
+      "Short camel rides",
+      "Sand castle building",
+      "Kids entertainment",
+      "Family-friendly BBQ dinner",
+      "Photo opportunities",
+      "All non-alcoholic beverages"
+    ],
+    "excluded": [
+      "Alcoholic beverages",
+      "Personal expenses"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/3568036/pexels-photo-3568036.jpeg",
+      "https://images.pexels.com/photos/3568035/pexels-photo-3568035.jpeg",
+      "https://images.pexels.com/photos/3568034/pexels-photo-3568034.jpeg"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Luxury Desert Spa Experience",
+    "duration": "8 hours",
+    "price": 450,
+    "description": "Ultimate relaxation in the desert with spa treatments, private dining, and luxury accommodations",
+    "full_description": "Indulge in the ultimate desert luxury with our Spa Experience. Enjoy professional spa treatments in desert tents, private dining with gourmet cuisine, luxury accommodations, and personalized service. This is the perfect way to relax and rejuvenate in the Arabian desert.",
+    "included": [
+      "Private pick-up and drop-off",
+      "Luxury spa treatments (massage, aromatherapy)",
+      "Private dining tent",
+      "Gourmet 7-course dinner",
+      "Luxury overnight accommodation",
+      "Personal butler service",
+      "Desert yoga session",
+      "Stargazing with telescope",
+      "Premium beverages and champagne",
+      "Luxury souvenirs"
+    ],
+    "excluded": [
+      "Additional spa treatments",
+      "International flights"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/3568041/pexels-photo-3568041.jpeg",
+      "https://images.pexels.com/photos/3568042/pexels-photo-3568042.jpeg",
+      "https://images.pexels.com/photos/3568043/pexels-photo-3568043.jpeg"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Adventure Quad Biking Safari",
+    "duration": "4 hours",
+    "price": 200,
+    "description": "Thrilling quad biking adventure through massive sand dunes with professional instructors and safety equipment",
+    "full_description": "Experience the ultimate adrenaline rush with our Quad Biking Safari. Race through massive sand dunes at high speeds under the guidance of professional instructors. Includes all safety equipment, ATV maintenance, and a BBQ dinner to celebrate your adventure.",
+    "included": [
+      "Professional quad biking instruction",
+      "Safety equipment (helmet, goggles, protective gear)",
+      "4x4 ATV vehicles",
+      "Pick-up and drop-off from Dubai",
+      "BBQ dinner with soft drinks",
+      "Photo opportunities",
+      "Certificate of completion"
+    ],
+    "excluded": [
+      "Alcoholic beverages",
+      "Personal expenses",
+      "Medical insurance"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/163036/pexels-photo-163036.jpeg",
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg",
+      "https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Romantic Sunset Experience",
+    "featured": true,
+    "badge": "Romantic",
+    "duration": "5 hours",
+    "price": 280,
+    "description": "Intimate couples experience with private dining, champagne, and breathtaking desert sunset views",
+    "full_description": "Create unforgettable memories with your loved one during our Romantic Sunset Experience. Enjoy a private camel ride at golden hour, a gourmet dinner for two with champagne, and stargazing from a premium viewing platform. Perfect for proposals, anniversaries, or special celebrations.",
+    "included": [
+      "Private pick-up and drop-off",
+      "Romantic camel ride for two",
+      "Private dining setup with champagne",
+      "Gourmet dinner for couples",
+      "Sunset photography session",
+      "Stargazing experience",
+      "Rose petals and romantic decorations",
+      "Personal photographer (optional)"
+    ],
+    "excluded": [
+      "Additional champagne",
+      "Personal photographer fee",
+      "Transportation outside Dubai"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/1381679/pexels-photo-1381679.jpeg",
+      "https://images.pexels.com/photos/2418664/pexels-photo-2418664.jpeg",
+      "https://images.pexels.com/photos/3809947/pexels-photo-3809947.jpeg"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Cultural Heritage Tour",
+    "duration": "6 hours",
+    "price": 220,
+    "description": "Deep dive into Bedouin culture with traditional crafts, storytelling, and authentic Arabian hospitality",
+    "full_description": "Immerse yourself in the rich Bedouin heritage with our Cultural Heritage Tour. Learn traditional crafts like weaving and pottery, listen to ancient stories around the campfire, and experience genuine Arabian hospitality. Includes traditional tea ceremonies and cultural performances.",
+    "included": [
+      "Cultural guide and storyteller",
+      "Traditional crafts workshop",
+      "Bedouin tea ceremony",
+      "Storytelling session around campfire",
+      "Traditional costume experience",
+      "Cultural performance show",
+      "Authentic Arabian lunch",
+      "Handmade souvenir"
+    ],
+    "excluded": [
+      "Photography equipment",
+      "Personal purchases",
+      "Additional workshops"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/2387532/pexels-photo-2387532.jpeg",
+      "https://images.pexels.com/photos/3568044/pexels-photo-3568044.jpeg",
+      "https://images.pexels.com/photos/3568045/pexels-photo-3568045.jpeg"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Extreme Desert Challenge",
+    "duration": "8 hours",
+    "price": 400,
+    "description": "Ultimate adventure combining quad biking, sandboarding, and overnight camping for thrill-seekers",
+    "full_description": "Push your limits with our Extreme Desert Challenge. Combine high-speed quad biking, extreme sandboarding down massive dunes, and an overnight adventure under the stars. Perfect for adrenaline junkies seeking the ultimate desert experience.",
+    "included": [
+      "Extreme quad biking session",
+      "Professional sandboarding instruction",
+      "Extreme dune bashing",
+      "Overnight desert camping",
+      "Adventure photography",
+      "Energy snacks and hydration",
+      "Safety equipment and first aid",
+      "Adventure certificate",
+      "All meals and refreshments"
+    ],
+    "excluded": [
+      "Medical insurance",
+      "Personal medication",
+      "Additional activities"
+    ],
+    "images": [
+      "https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg",
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg",
+      "https://images.pexels.com/photos/3568037/pexels-photo-3568037.jpeg"
+    ]
+  }
+]

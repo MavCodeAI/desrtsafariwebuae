@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "name": "Sarah Johnson",
+    "country": "United States",
+    "rating": 5,
+    "date": "2024-11-05",
+    "package": "Evening Desert Safari",
+    "review": "Absolutely amazing experience! The dune bashing was thrilling, and our guide Mohammed was fantastic. The sunset views were breathtaking, and the BBQ dinner was delicious. Highly recommend!",
+    "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"
+  },
+  {
+    "id": "2",
+    "name": "Ahmed Al-Rashid",
+    "country": "Saudi Arabia",
+    "rating": 5,
+    "date": "2024-11-03",
+    "package": "Overnight Desert Safari",
+    "review": "The overnight safari exceeded all expectations. Sleeping under the stars was magical, and the traditional entertainment was authentic and engaging. Professional service throughout!",
+    "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg"
+  },
+  {
+    "id": "3",
+    "name": "Emma Thompson",
+    "country": "United Kingdom",
+    "rating": 5,
+    "date": "2024-11-01",
+    "package": "VIP Premium Desert Safari",
+    "review": "Worth every penny! The VIP treatment was exceptional - private vehicle, gourmet dinner, and exclusive seating. The falcon photography was a highlight. Perfect for a special occasion!",
+    "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+  },
+  {
+    "id": "4",
+    "name": "Raj Patel",
+    "country": "India",
+    "rating": 5,
+    "date": "2024-10-30",
+    "package": "Morning Desert Safari",
+    "review": "Perfect for families! The morning timing was ideal - cooler weather and our kids loved the camel rides. Great value for money and well-organized. Will definitely book again!",
+    "avatar": "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg"
+  },
+  {
+    "id": "5",
+    "name": "Maria Garcia",
+    "country": "Spain",
+    "rating": 5,
+    "date": "2024-10-28",
+    "package": "Evening Desert Safari",
+    "review": "Incredible experience from start to finish! The belly dancing and tanoura show were mesmerizing. Food was excellent with plenty of options. Punctual pickup and friendly staff!",
+    "avatar": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg"
+  },
+  {
+    "id": "6",
+    "name": "Chen Wei",
+    "country": "China",
+    "rating": 5,
+    "date": "2024-10-25",
+    "package": "Overnight Desert Safari",
+    "review": "The highlight of our Dubai trip! Watching the sunrise in the desert was unforgettable. Camp facilities were clean and comfortable. Guides were knowledgeable about local culture!",
+    "avatar": "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg"
+  },
+  {
+    "id": "7",
+    "name": "Michael O'Brien",
+    "country": "Ireland",
+    "rating": 5,
+    "date": "2024-10-22",
+    "package": "Evening Desert Safari",
+    "review": "Fantastic adventure! The sandboarding was so much fun, and the henna painting was a nice touch. Our driver was skilled and safety-conscious. Great photos from the trip!",
+    "avatar": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg"
+  },
+  {
+    "id": "8",
+    "name": "Fatima Hassan",
+    "country": "Egypt",
+    "rating": 5,
+    "date": "2024-10-20",
+    "package": "VIP Premium Desert Safari",
+    "review": "Luxury at its finest! Every detail was perfect - from the private majlis to the five-course dinner. The fire show was spectacular. Best desert safari experience possible!",
+    "avatar": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg"
+  },
+  {
+    "id": "9",
+    "name": "John Smith",
+    "country": "Australia",
+    "rating": 5,
+    "date": "2024-10-18",
+    "package": "Morning Desert Safari",
+    "review": "Brilliant way to start the day! Beat the heat with an early adventure. The desert landscapes in morning light were stunning. Efficient, fun, and well worth it!",
+    "avatar": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg"
+  },
+  {
+    "id": "10",
+    "name": "Sophie Laurent",
+    "country": "France",
+    "rating": 5,
+    "date": "2024-10-15",
+    "package": "Evening Desert Safari",
+    "review": "Magnifique! The cultural experience was authentic and the hospitality was warm. Arabic coffee ceremony was delightful. Beautiful memories created with family!",
+    "avatar": "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg"
+  }
+]
