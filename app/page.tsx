@@ -4,34 +4,32 @@ import HeroSlider from '@/components/HeroSlider';
 import PackageCard from '@/components/PackageCard';
 import packagesData from '@/data/packages.json';
 import { Star, Users, Award, MapPin, Calendar, Clock } from 'lucide-react';
-import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function Home() {
-  const { t } = useLanguage();
 
   const features = [
     {
       icon: Star,
-      title: t('premium_experience_title'),
-      description: t('premium_experience_desc'),
+      title: 'Premium Experience',
+      description: 'Luxury desert adventures with world-class service',
       color: 'text-[#d4af37]'
     },
     {
       icon: Users,
-      title: t('expert_guides_title'),
-      description: t('expert_guides_desc'),
+      title: 'Expert Guides',
+      description: 'Professional local guides with extensive desert knowledge',
       color: 'text-[#d4af37]'
     },
     {
       icon: Award,
-      title: t('award_winning_title'),
-      description: t('award_winning_desc'),
+      title: 'Award Winning',
+      description: 'Recognized for excellence in desert tourism worldwide',
       color: 'text-[#d4af37]'
     },
     {
       icon: MapPin,
-      title: t('prime_locations_title'),
-      description: t('prime_locations_desc'),
+      title: 'Prime Locations',
+      description: 'Access to the most spectacular desert landscapes',
       color: 'text-[#d4af37]'
     }
   ];
@@ -45,11 +43,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-white mb-6 gold-glow animate-float">
-              {t('why_choose_title')}
+              Why Choose Dubai Desert Safari?
             </h2>
             <div className="w-32 h-1.5 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent mx-auto mb-8 rounded-full shadow-lg shadow-[#d4af37]/50"></div>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              {t('why_choose_subtitle')}
+              Experience the magic of the Arabian desert with our premium safari packages designed for unforgettable adventures.
             </p>
           </div>
 
@@ -80,11 +78,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-white mb-6 gold-glow animate-float">
-              {t('packages_title')}
+              Our Desert Safari Packages
             </h2>
             <div className="w-32 h-1.5 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent mx-auto mb-8 rounded-full shadow-lg shadow-[#d4af37]/50"></div>
             <p className="text-xl text-[#d4af37] max-w-2xl mx-auto font-medium">
-              {t('packages_subtitle')}
+              Choose from our carefully curated selection of desert adventures, each designed to offer unforgettable experiences in Dubai&apos;s magnificent desert landscape.
             </p>
           </div>
 
@@ -104,17 +102,17 @@ export default function Home() {
           <div className="glass-morphism p-12 rounded-3xl border border-[#d4af37]/30 luxury-gradient relative overflow-hidden">
             <div className="absolute inset-0 premium-shimmer opacity-30"></div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 gold-glow relative z-10">
-              {t('cta_title')}
+              Ready for Your Desert Adventure?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto relative z-10">
-              {t('cta_subtitle')}
+              Book your unforgettable desert safari experience today and create memories that will last a lifetime.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center relative z-10">
               <a href="/booking" className="bg-gradient-to-r from-[#d4af37] to-[#f4d03f] hover:from-[#f4d03f] hover:to-[#ffd700] text-[#1a1a2e] px-10 py-4 text-lg font-bold rounded-full transition-all duration-300 shadow-lg hover:shadow-[#d4af37]/50 transform hover:scale-105">
-                {t('book_safari')}
+                Book Your Safari
               </a>
               <a href="/contact" className="border-2 border-[#d4af37] text-[#d4af37] px-10 py-4 rounded-full font-semibold hover:bg-[#d4af37] hover:text-[#1a1a2e] transition-all duration-300 shadow-lg hover:shadow-[#d4af37]/30 transform hover:scale-105">
-                {t('contact_us')}
+                Contact Us
               </a>
             </div>
           </div>

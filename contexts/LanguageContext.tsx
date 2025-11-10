@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useState } from 'react';
 
-type Language = 'en' | 'ar';
+type Language = 'en';
 
 interface TranslationKeys {
   nav_home: string;
@@ -21,22 +21,6 @@ interface TranslationKeys {
   about_title: string;
   about_subtitle: string;
   book_now: string;
-  why_choose_title: string;
-  why_choose_subtitle: string;
-  premium_experience_title: string;
-  premium_experience_desc: string;
-  expert_guides_title: string;
-  expert_guides_desc: string;
-  award_winning_title: string;
-  award_winning_desc: string;
-  prime_locations_title: string;
-  prime_locations_desc: string;
-  packages_title: string;
-  packages_subtitle: string;
-  cta_title: string;
-  cta_subtitle: string;
-  book_safari: string;
-  contact_us: string;
 }
 
 const translations: Record<Language, TranslationKeys> = {
@@ -57,56 +41,6 @@ const translations: Record<Language, TranslationKeys> = {
     about_title: 'About Dubai Desert Safari',
     about_subtitle: 'Learn more about our journey and commitment to exceptional desert experiences',
     book_now: 'Book Now',
-    why_choose_title: 'Why Choose Dubai Desert Safari?',
-    why_choose_subtitle: 'Experience the magic of the Arabian desert with our premium safari packages designed for unforgettable adventures.',
-    premium_experience_title: 'Premium Experience',
-    premium_experience_desc: 'Luxury desert adventures with world-class service',
-    expert_guides_title: 'Expert Guides',
-    expert_guides_desc: 'Professional local guides with extensive desert knowledge',
-    award_winning_title: 'Award Winning',
-    award_winning_desc: 'Recognized for excellence in desert tourism worldwide',
-    prime_locations_title: 'Prime Locations',
-    prime_locations_desc: 'Access to the most spectacular desert landscapes',
-    packages_title: 'Our Desert Safari Packages',
-    packages_subtitle: 'Choose from our carefully curated selection of desert adventures, each designed to offer unforgettable experiences in Dubai\'s magnificent desert landscape.',
-    cta_title: 'Ready for Your Desert Adventure?',
-    cta_subtitle: 'Book your unforgettable desert safari experience today and create memories that will last a lifetime.',
-    book_safari: 'Book Your Safari',
-    contact_us: 'Contact Us',
-  },
-  ar: {
-    nav_home: 'الرئيسية',
-    nav_packages: 'الباقات',
-    nav_gallery: 'المعرض',
-    nav_blog: 'المدونة',
-    nav_about: 'من نحن',
-    nav_contact: 'اتصل بنا',
-    nav_booking: 'احجز الآن',
-    hero_title: 'استمتع بسفاري الصحراء الأمثل',
-    hero_subtitle: 'اكتشف سحر صحراء دبي مع ركوب التلال الرملية المثيرة، والمعسكرات التقليدية، والمغامرات التي لا تُنسى.',
-    quick_links: 'روابط سريعة',
-    contact_info: 'معلومات الاتصال',
-    address: 'دبي، الإمارات العربية المتحدة',
-    all_rights_reserved: 'جميع الحقوق محفوظة',
-    about_title: 'عن سفاري صحراء دبي',
-    about_subtitle: 'تعرف أكثر على رحلتنا والتزامنا بتقديم تجارب صحراوية استثنائية',
-    book_now: 'احجز الآن',
-    why_choose_title: 'لماذا تختار سفاري صحراء دبي؟',
-    why_choose_subtitle: 'استمتع بسحر الصحراء العربية مع باقات السفاري المميزة لدينا المصممة لمغامرات لا تُنسى.',
-    premium_experience_title: 'تجربة مميزة',
-    premium_experience_desc: 'مغامرات صحراوية فاخرة مع خدمة عالمية المستوى',
-    expert_guides_title: 'مرشدون خبراء',
-    expert_guides_desc: 'مرشدون محليون محترفون بمعرفة واسعة بالصحراء',
-    award_winning_title: 'حائز على جوائز',
-    award_winning_desc: 'معترف به للتميز في السياحة الصحراوية عالمياً',
-    prime_locations_title: 'مواقع متميزة',
-    prime_locations_desc: 'وصول إلى أجمل المناظر الصحراوية',
-    packages_title: 'باقات سفاري الصحراء لدينا',
-    packages_subtitle: 'اختر من مجموعتنا المختارة بعناية من المغامرات الصحراوية، مصممة كل منها لتقديم تجارب لا تُنسى في صحراء دبي الرائعة.',
-    cta_title: 'مستعد لمغامرتك الصحراوية؟',
-    cta_subtitle: 'احجز تجربة سفاري صحراوك التي لا تُنسى اليوم وأنشئ ذكريات تدوم مدى الحياة.',
-    book_safari: 'احجز سفاريك',
-    contact_us: 'اتصل بنا',
   },
 };
 

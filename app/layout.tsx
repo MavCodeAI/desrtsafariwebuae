@@ -5,8 +5,6 @@ import Footer from '@/components/Footer';
 import { Toaster } from 'sonner';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import LiveChat from '@/components/LiveChat';
-import { LanguageProvider } from '@/contexts/LanguageContext';
-import LanguageWrapper from '@/components/LanguageWrapper';
 
 export const metadata: Metadata = {
   title: 'Dubai Desert Safari | Premium Desert Adventures',
@@ -28,21 +26,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <body suppressHydrationWarning>
-        <LanguageProvider>
-          <LanguageWrapper>
-            <GoogleAnalytics gaId="G-XXXXXXXXXX" />
-            <LiveChat
-              tawkToPropertyId="YOUR_PROPERTY_ID"
-              tawkToKey="YOUR_KEY"
-            />
-            <Navbar />
-            {children}
-            <Footer />
-            <Toaster position="top-right" richColors />
-          </LanguageWrapper>
-        </LanguageProvider>
+        <GoogleAnalytics gaId="G-XXXXXXXXXX" />
+        <LiveChat 
+          tawkToPropertyId="YOUR_PROPERTY_ID" 
+          tawkToKey="YOUR_KEY" 
+        />
+        <Navbar />
+        {children}
+        <Footer />
+        <Toaster position="top-right" richColors />
       </body>
     </html>
   );

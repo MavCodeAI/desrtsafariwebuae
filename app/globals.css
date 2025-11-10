@@ -2,41 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Bebas+Neue&family=Exo+2:wght@100;200;300;400;500;600;700;800;900&family=Comfortaa:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=Crimson+Text:wght@400;600;700&family=Lato:wght@100;300;400;700;900&family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Amiri:wght@400;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Bebas+Neue&family=Exo+2:wght@100;200;300;400;500;600;700;800;900&family=Comfortaa:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=Crimson+Text:wght@400;600;700&family=Lato:wght@100;300;400;700;900&display=swap');
 
 :root {
-  /* Desert Safari Premium Color Palette */
-  --desert-sand: #f4e4c1;
-  --desert-gold: #d4af37;
-  --desert-gold-light: #f4d03f;
-  --desert-gold-dark: #b8941f;
-  --desert-sunset: #ff6b35;
-  --desert-dusk: #ff8c42;
-  --desert-night: #1a1a2e;
-  --desert-night-light: #252541;
-  --desert-night-dark: #0f0f1e;
-  
-  /* Background Gradients */
-  --gradient-primary: linear-gradient(135deg, #1a1a2e 0%, #252541 25%, #1f1f3a 50%, #1a1a2e 75%, #0f0f1e 100%);
-  --gradient-desert: linear-gradient(135deg, #1a1a2e 0%, #2d1b1b 50%, #1a1a2e 100%);
-  --gradient-gold: linear-gradient(135deg, #d4af37 0%, #f4d03f 50%, #ffd700 100%);
-  --gradient-sunset: linear-gradient(135deg, #ff6b35 0%, #ff8c42 50%, #ffa726 100%);
-  
-  /* Text Colors */
-  --text-primary: #ffffff;
-  --text-secondary: #e0e0e0;
-  --text-muted: #b0b0b0;
-  --text-gold: #d4af37;
-  
-  /* Component Colors */
-  --card-bg: rgba(26, 26, 46, 0.8);
-  --card-border: rgba(212, 175, 55, 0.3);
-  --button-primary: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
-  --button-hover: linear-gradient(135deg, #f4d03f 0%, #ffd700 100%);
-  
   --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 26, 26, 46;
-  --background-end-rgb: 15, 15, 30;
+  --background-start-rgb: 5, 15, 25;
+  --background-end-rgb: 10, 25, 40;
+  --gradient-primary: linear-gradient(135deg, #0a0f1c 0%, #1a1f2e 25%, #0f1419 50%, #0a1626 75%, #0d1117 100%);
+  --gradient-secondary: linear-gradient(135deg, #00d4ff 0%, #00a8cc 50%, #0088aa 100%);
+  --gradient-accent: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
+  --gradient-sunset: linear-gradient(135deg, #ec4899 0%, #f97316 50%, #eab308 100%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -101,16 +76,8 @@
   body {
     @apply bg-background text-foreground;
     font-family: 'Lato', 'Nunito', 'Montserrat', 'Exo 2', 'Comfortaa', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, 
-      #0f0f1e 0%, 
-      #1a1a2e 20%, 
-      #252541 40%, 
-      #1f1f3a 60%, 
-      #1a1a2e 80%, 
-      #0f0f1e 100%);
+    background: var(--gradient-primary);
     background-attachment: fixed;
-    color: var(--text-primary);
-    line-height: 1.7;
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', 'Bebas Neue', 'Oswald', 'Montserrat', 'Raleway', serif;
@@ -140,50 +107,23 @@
   
   /* Enhanced button styles */
   .btn-premium {
-    background: var(--button-primary);
+    background: var(--gradient-secondary);
     border: none;
-    color: #1a1a2e;
-    font-weight: 700;
+    color: #0a0f1c;
+    font-weight: 600;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.4);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
   }
   
   .btn-premium:hover {
-    background: var(--button-hover);
-    transform: translateY(-2px) scale(1.05);
-    box-shadow: 0 8px 30px rgba(212, 175, 55, 0.6);
-  }
-  
-  /* Desert gradient backgrounds */
-  .bg-gradient-desert {
-    background: linear-gradient(135deg, 
-      #0f0f1e 0%, 
-      #1a1a2e 20%, 
-      #2d1b1b 40%,
-      #1f1f3a 60%, 
-      #1a1a2e 80%, 
-      #0f0f1e 100%);
-  }
-  
-  .bg-gradient-gold {
-    background: var(--gradient-gold);
-  }
-  
-  .bg-gradient-sunset {
-    background: var(--gradient-sunset);
+    background: var(--gradient-accent);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 212, 255, 0.4);
   }
   
   /* Text glow effect */
   .text-glow {
-    text-shadow: 0 0 25px rgba(212, 175, 55, 0.6),
-                 0 0 50px rgba(212, 175, 55, 0.3);
-  }
-  
-  .text-glow-strong {
-    text-shadow: 0 0 30px rgba(212, 175, 55, 0.8),
-                 0 0 60px rgba(212, 175, 55, 0.4),
-                 0 0 90px rgba(212, 175, 55, 0.2);
+    text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
   }
   
   /* Advanced animations */
@@ -193,8 +133,8 @@
   }
   
   @keyframes glow {
-    0%, 100% { box-shadow: 0 0 20px rgba(212, 175, 55, 0.4); }
-    50% { box-shadow: 0 0 40px rgba(212, 175, 55, 0.7); }
+    0%, 100% { box-shadow: 0 0 20px rgba(0, 212, 255, 0.3); }
+    50% { box-shadow: 0 0 30px rgba(0, 212, 255, 0.6); }
   }
   
   @keyframes shimmer {
@@ -229,27 +169,18 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.15) 0%, transparent 50%),
-                      radial-gradient(circle at 80% 20%, rgba(244, 208, 63, 0.1) 0%, transparent 50%),
-                      radial-gradient(circle at 40% 80%, rgba(255, 107, 53, 0.08) 0%, transparent 50%);
+    background-image: radial-gradient(circle at 20% 50%, rgba(0, 212, 255, 0.1) 0%, transparent 50%),
+                      radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.05) 0%, transparent 50%),
+                      radial-gradient(circle at 40% 80%, rgba(168, 85, 247, 0.08) 0%, transparent 50%);
     pointer-events: none;
     z-index: 0;
   }
   
   /* Glass morphism effect */
   .glass-morphism {
-    background: rgba(26, 26, 46, 0.7);
+    background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(20px);
-    border: 1px solid rgba(212, 175, 55, 0.2);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3),
-                inset 0 1px 0 rgba(212, 175, 55, 0.1);
-  }
-  
-  .glass-morphism:hover {
-    background: rgba(26, 26, 46, 0.8);
-    border-color: rgba(212, 175, 55, 0.4);
-    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.4),
-                inset 0 1px 0 rgba(212, 175, 55, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
   }
   
   /* Premium Gold Scrollbar */
@@ -357,8 +288,6 @@
   /* Arabic font sizes and line heights */
   [lang="ar"] body {
     line-height: 1.8;
-    font-family: 'Tajawal', 'Noto Sans Arabic', 'Amiri', serif;
-    direction: rtl;
   }
   
   [lang="ar"] p {
@@ -368,105 +297,6 @@
   
   [lang="ar"] .leading-relaxed {
     line-height: 2 !important;
-  }
-  
-  /* Arabic-specific RTL adjustments */
-  [lang="ar"] {
-    direction: rtl;
-    text-align: right;
-  }
-  
-  [lang="ar"] h1, 
-  [lang="ar"] h2, 
-  [lang="ar"] h3, 
-  [lang="ar"] h4, 
-  [lang="ar"] h5, 
-  [lang="ar"] h6 {
-    text-align: right;
-    font-family: 'Amiri', serif;
-  }
-  
-  /* RTL Layout adjustments */
-  [lang="ar"] .flex {
-    flex-direction: row-reverse;
-  }
-  
-  [lang="ar"] .justify-start {
-    justify-content: flex-end;
-  }
-  
-  [lang="ar"] .justify-end {
-    justify-content: flex-start;
-  }
-  
-  [lang="ar"] .text-left {
-    text-align: right !important;
-  }
-  
-  [lang="ar"] .text-right {
-    text-align: left !important;
-  }
-  
-  /* Navigation RTL */
-  [lang="ar"] .navbar {
-    flex-direction: row-reverse;
-  }
-  
-  /* Card RTL adjustments */
-  [lang="ar"] .card-content {
-    text-align: right;
-  }
-  
-  /* Form RTL */
-  [lang="ar"] input,
-  [lang="ar"] textarea,
-  [lang="ar"] select {
-    text-align: right;
-    direction: rtl;
-  }
-  
-  /* Button RTL */
-  [lang="ar"] .btn-group {
-    flex-direction: row-reverse;
-  }
-  
-  /* Icon adjustments for RTL */
-  [lang="ar"] .icon-left {
-    margin-right: 0;
-    margin-left: 0.5rem;
-  }
-  
-  [lang="ar"] .icon-right {
-    margin-left: 0;
-    margin-right: 0.5rem;
-  }
-  
-  /* Spacing adjustments for RTL */
-  [lang="ar"] .space-x-4 > * + * {
-    margin-left: 0;
-    margin-right: 1rem;
-  }
-  
-  [lang="ar"] .space-x-2 > * + * {
-    margin-left: 0;
-    margin-right: 0.5rem;
-  }
-  
-  /* Grid RTL */
-  [lang="ar"] .grid-cols-1 {
-    direction: rtl;
-  }
-  
-  [lang="ar"] .grid-cols-2 {
-    direction: rtl;
-  }
-  
-  [lang="ar"] .grid-cols-3 {
-    direction: rtl;
-  }
-  
-  [lang="ar"] .grid-cols-4 {
-    direction: rtl;
   }
 }
 
